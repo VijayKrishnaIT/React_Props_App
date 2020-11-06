@@ -1,8 +1,6 @@
-# React State and Props Apps
+# React Props Apps
 
 Props object helps to receive the data.
-
-state is storing component data.
 
 Component 1 --> First Component
 
@@ -19,9 +17,9 @@ Component 2 --> Second Component
 ---
 
 props_app
--->src
--->First.js
--->Second.js
+src
+First.js
+Second.js
 
         index.js
 
