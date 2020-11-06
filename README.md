@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React State and Props Apps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Props object helps to receive the data.
 
-## Available Scripts
+state is storing component data.
 
-In the project directory, you can run:
+Component 1 --> First Component
 
-### `yarn start`
+Component 2 --> Second Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Props
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+===========
 
-### `yarn test`
+    - props is the predefined object in react library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - props helps to receive the data from another component / 3rd party components.
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+props_app
+-->src
+-->First.js
+-->Second.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        index.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+# Interview questions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. What is React? It is Library.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Which company released? facebook.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Flavors of React? ReactJS, React Native, Prime React, React BootStrap
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Who support 2-way Data Binding? Angular.
 
-## Learn More
+5. Is react Component based? Yes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. how to rich UI? Material-UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. What is speciality of react? Light weight and VirtualDOM
 
-### Code Splitting
+8. Are react framework faster? 10 times faster.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+9. How many duplicate objects detected? 2
 
-### Analyzing the Bundle Size
+10. Virtual DOM is it available in Angular ? No
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+11. Why Virtual DOM? virtual representation of real DOM.
 
-### Making a Progressive Web App
+12. component types? functional level component. class level component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+13. Isomorphic React? increasing the performance of react library.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+with isomorphic React, this means that the server renders the initial HTML for the client using React components and React.renderToString(). This eliminates double work such as having erb templates on the server side when using Rails but then using Handlebars for client-side templates and also avoid the FOUC. You can just use React for everything.
