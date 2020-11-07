@@ -1,4 +1,4 @@
-# React Props Apps
+# React State and Props Apps
 
 Props object helps to receive the data.
 
