@@ -1,0 +1,7 @@
+state
+=======
+
+state used to store the component data.
+
+useState is the predefined class, used to define the state in functional component.
+

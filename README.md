@@ -54,3 +54,15 @@ Second.js
 13. Isomorphic React? increasing the performance of react library.
 
 with isomorphic React, this means that the server renders the initial HTML for the client using React components and React.renderToString(). This eliminates double work such as having erb templates on the server side when using Rails but then using Handlebars for client-side templates and also avoid the FOUC. You can just use React for everything.
+
+14. What is "this" keyword?
+
+class is variables and function
+
+Inside the function we call "this" keyword.
+
+# State Example
+
+    - state used to store the component data.
+
+    - useState is the predefined class, used to define the state in functional component.
